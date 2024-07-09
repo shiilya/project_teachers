@@ -1,0 +1,35 @@
+.introduce {
+  margin-top: 165px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & h2 {
+    font-family: 'Jura';
+    font-weight: bold;
+    font-size: 32px;
+  }
+}
+.introduce__elements {
+  display: flex;
+  justify-content: space-evenly;
+}
+.introduce__elements_column {
+  max-width: 25%;
+}
+.introduce__elements_column_img {
+  margin-top: 80px;
+}
+.introduce__elements_column_name {
+  margin-top: 30px;
+}
+.introduce__elements_column_text {
+  margin-top: 30px;
+ 
+}
+.introduce__elements_column_name,
+.introduce__elements_column_text {
+  font-family: "Ubuntu";
+  font-size: 20;
+  line-height: 110%;
+}

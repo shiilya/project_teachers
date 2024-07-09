@@ -1,5 +1,9 @@
 import { Outlet } from 'react-router-dom';
 import Header from '../components/header';
+import Introduce from '../components/introduce';
+import Lessons_cards from '../components/lessons_cards';
+import Footer from '../components/footer';
+
 // import { Link } from 'react-router-dom';
 
 function MainPage() {
@@ -10,6 +14,9 @@ function MainPage() {
      
      <h1>Стартовая страница</h1>
     </div>
+    <Introduce/>
+    <Lessons_cards/>
+    <Footer/>
     <Outlet/>
     </>
   );

@@ -1,0 +1,68 @@
+.cards {
+  margin-top: 80px;
+  text-align: center;
+  & h2 {
+    padding-bottom: 60px;
+    font-family: "Jura";
+    font-weight: bold;
+    font-size: 32px;
+  }
+  & h3 {
+    padding-bottom: 60px;
+    font-family: "Jura";
+    font-weight: bold;
+    font-size: 22px;
+  }
+}
+
+.cards__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 15%);
+  justify-content: space-evenly;
+  grid-row-gap: 160px;
+}
+
+.cards__grid_link {
+  text-decoration: none;
+}
+.cards__grid_element {
+  height: 160px;
+  background-color: #fff;
+  border: 1px solid #106dee;
+  box-shadow: 4px 4px 4px 0px #106cee25;
+  border-radius: 15px;
+  padding-top: 40px;
+  padding-bottom: 32px;
+  &:hover {
+    background-color: #edeffb;
+    transition-duration: 0.4s;
+    transform: scale(1.1);
+  }
+}
+
+.cards__grid_element_img {
+  width: 50px;
+  height: 50px;
+}
+
+.cards__grid_element_name {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 20px;
+  color: #106dee;
+  margin-top: 50px;
+}
+
+.more {
+  text-decoration: none;
+  font-family: "Jura";
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
+  &:hover {
+    color: #106dee;
+  }
+  & p {
+    margin-top: 60px;
+  }
+}

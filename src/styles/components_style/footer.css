@@ -1,0 +1,72 @@
+.footer {
+  background-color: #e1e1e1;
+  height: 120px;
+}
+.footer__columns {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+.footer__columns_left {
+  display: flex;
+  align-items: center;
+}
+.footer__columns_left_img {
+  width: 60px;
+  border-radius: 15px;
+}
+.footer__columns_left_name {
+  font-family: "Jura";
+  font-weight: 900;
+  & span {
+    font-size: 24px;
+    color: #26ee10;
+  }
+}
+.footer__columns_center {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 10px;
+  & a {
+    font-family: "Jura";
+
+    text-decoration: none;
+    color: #787878;
+    &:hover {
+      color: #4f4f4f;
+      transition-duration: 0.4s;
+    }
+  }
+}
+.footer__columns_right {
+  display: flex;
+  flex-direction: column;
+}
+.footer__columns_right_number {
+  font-family: "Jura";
+  text-decoration: none;
+  color: #787878;
+  &:hover {
+    color: #4f4f4f;
+    transition-duration: 0.4s;
+  }
+}
+.footer__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Jura";
+  color: #787878;
+  text-decoration: none;
+  padding-top: 10px;
+  & a {
+    text-decoration: none;
+    color: #787878;
+    &:hover {
+        color: #4f4f4f;
+    }
+  }
+}
