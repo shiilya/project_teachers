@@ -1,0 +1,82 @@
+.tcards {
+    margin-top: 80px;
+    text-align: center;
+    & h2 {
+      padding-bottom: 60px;
+      font-family: "Jura";
+      font-weight: bold;
+      font-size: 32px;
+    }
+    & h3 {
+      padding-bottom: 60px;
+      font-family: "Jura";
+      font-weight: bold;
+      font-size: 22px;
+    }
+  }
+  
+  .tcards__grid {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .tcards__grid_link {
+    text-decoration: none;
+  }
+  .tcards__grid_element {
+    font-family: "Ubuntu";
+    color: black;
+    background-color: #fff;
+    border: 1px solid #106dee;
+    box-shadow: 4px 4px 4px 0px #106cee25;
+    border-radius: 15px;
+    
+    padding-bottom: 32px;
+    &:hover {
+      background-color: #edeffb;
+      transition-duration: 0.4s;
+      transform: scale(1.1);
+    }
+  }
+  
+  .tcards__grid_element_img {
+    width: 270px;
+    padding: 30px;
+  }
+  
+  .tcards__grid_element_name {
+    
+    font-weight: bold;
+    font-size: 20px;
+    
+  }
+  .tcards__grid_element_price {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+
+  .tcards__grid_element_price-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+.tcards__grid_element_rating {
+    padding-top: 20px;
+}
+
+  .more {
+    text-decoration: none;
+    font-family: "Jura";
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    &:hover {
+      color: #106dee;
+    }
+    & p {
+      margin-top: 60px;
+    }
+  }

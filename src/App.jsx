@@ -7,6 +7,7 @@ import HowItWorks from './pages/HowItWorks';
 import PersonalAccountEntry from './pages/PersonalAccountEntry';
 import MainPage from './pages/MainPage';
 import ChooseLessons from './pages/ChooseLessons';
+import ChooseTeachers from './pages/ChooseTeachers';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/how-it-works" element={<HowItWorks/>} />
           <Route path="/personal-account" element={<PersonalAccountEntry/>} />
           <Route path="/ege" element={<ChooseLessons/>} />
+          <Route path="/teachers" element={<ChooseTeachers/>} />
         </Routes>
     </BrowserRouter>
   );
