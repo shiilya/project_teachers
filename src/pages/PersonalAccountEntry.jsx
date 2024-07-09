@@ -8,7 +8,12 @@ function PersonalAccountEntry() {
     <div className="PersonalAccountEntry">
       <div className="content">
         <Header />
-        <Link to="/">На главную страницу</Link>
+        <div className="content__nav">
+        <Link className="content__nav_link" to="/">Главная </Link>
+        <p>{'>'}</p>
+        <p>Вход в личный кабинет</p>
+        </div>
+        
         <div>
           <p>Страница с личным кабинетом</p>
         </div>

@@ -5,4 +5,9 @@
 
 .content {
     min-height: calc(100vh - 120px);
+    
+}
+.content__nav {
+    padding-left: calc(50% - 585px);
+  padding-right: calc(50% - 585px);
 }

@@ -1,8 +1,23 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .content {
-    min-height: calc(100vh - 120px);
+  min-height: calc(100vh - 120px);
+  
+}
+
+.content__nav {
+  display: flex;
+  
+  gap: 20px;
+  font-family: "Jura";
+}
+.content__nav_link {
+  color: #106dee;
+  &:hover {
+    color: black;
+    transition-duration: 0.4s;
+  }
 }

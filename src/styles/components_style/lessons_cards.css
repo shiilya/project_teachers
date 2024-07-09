@@ -1,4 +1,6 @@
 .cards {
+  padding-left: calc(50% - 585px);
+  padding-right: calc(50% - 585px);
   margin-top: 80px;
   text-align: center;
   & h2 {
@@ -18,7 +20,7 @@
 .cards__grid {
   display: grid;
   grid-template-columns: repeat(4, 15%);
-  justify-content: space-evenly;
+  justify-content: space-between;
   grid-row-gap: 160px;
 }
 

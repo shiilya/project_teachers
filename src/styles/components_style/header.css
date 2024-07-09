@@ -1,13 +1,18 @@
 .header {
   height: 100px;
   display: flex;
+  justify-content: space-between;
+  
+  background-color: #106dee;
+  padding-left: calc(50% - 585px);
+  padding-right: calc(50% - 585px);
+}
+.header_panel {
+  display: flex;
   justify-content: end;
   align-items: center;
-  padding: 0 20px;
-  background-color: #106dee;
 }
-
-.links {
+.header__right {
   display: flex;
   
   & a {

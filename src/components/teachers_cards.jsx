@@ -66,7 +66,7 @@ function Teachers_cards() {
           </div>
         </Link>
       </div>
-      <Link className="more" to="/teachers">
+      <Link className="tmore" to="/teachers">
         <p>Показать еще . . .</p>
       </Link>
     </div>

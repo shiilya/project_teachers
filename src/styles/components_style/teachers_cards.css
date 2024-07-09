@@ -1,5 +1,8 @@
 .tcards {
+  padding-left: calc(50% - 585px);
+  padding-right: calc(50% - 585px);
     margin-top: 80px;
+    margin-bottom: 60px;
     text-align: center;
     & h2 {
       padding-bottom: 60px;
@@ -17,7 +20,7 @@
   
   .tcards__grid {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
   }
   
@@ -67,12 +70,13 @@
     padding-top: 20px;
 }
 
-  .more {
+  .tmore {
     text-decoration: none;
     font-family: "Jura";
     font-weight: bold;
     font-size: 22px;
     color: black;
+    
     &:hover {
       color: #106dee;
     }

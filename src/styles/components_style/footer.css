@@ -1,11 +1,13 @@
 .footer {
   background-color: #e1e1e1;
   height: 120px;
+  padding-left: calc(50% - 585px);
+  padding-right: calc(50% - 585px);
 }
 .footer__columns {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom: 30px;
   padding-top: 10px;
 }

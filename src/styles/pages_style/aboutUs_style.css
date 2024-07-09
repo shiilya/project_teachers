@@ -2,7 +2,15 @@
     margin: 0;
     padding: 0;
 }
-
+.AboutUs {
+    
+}
 .content {
     min-height: calc(100vh - 120px);
+   
+
+}
+.content_pos {
+    padding-left: calc(50% - 585px);
+  padding-right: calc(50% - 585px);
 }

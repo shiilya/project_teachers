@@ -8,9 +8,15 @@ function HowItWorks() {
     <div className="HowItWorks">
       <div className='content'>
      <Header/>
-     <Link to="/">На главную страницу</Link>
+     <div className='content_pos'>
+     <div className="content__nav">
+        <Link className="content__nav_link" to="/">Главная </Link>
+        <p>{'>'}</p>
+        <p>Как это работает</p>
+        </div>
      <div>
          <h2>У нашего сайта такие то идеи и такие то принципы работы</h2>
+         </div>
     </div>
     </div>
     <Footer/>

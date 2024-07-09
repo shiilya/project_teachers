@@ -1,0 +1,41 @@
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #106dee;
+  padding-top: 60px;
+  position: relative;
+  overflow:hidden;
+  padding-left: calc(50% - 585px);
+  padding-right: calc(50% - 585px);
+}
+.intro__left {
+    padding-top: 60px;
+   color: #fff;
+   font-family: "Ubuntu";
+
+}
+.intro__left_name {
+    padding-bottom: 40px;
+    max-width: 300px;
+}
+.intro__left__item {
+    display: flex;
+padding-bottom: 55px;
+}
+.intro__left__item_text {
+    padding-left: 30px;
+}
+
+
+.intro__right_img {
+    z-index: 100;
+}
+.intro__right_img_bc {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+
+
+
