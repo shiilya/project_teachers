@@ -1,0 +1,56 @@
+.table {
+  border: 1px solid #106dee;
+  background-color: #fff;
+  border-radius: 15px;
+  font-family: "Jura";
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 60px;
+}
+.table__content {
+  padding: 30px 30px 30px 35px;
+}
+.table_name {
+  padding-bottom: 30px;
+}
+.table__forms_name {
+  font-size: 18px;
+}
+.table__forms_flex {
+  display: flex;
+  gap: 100px;
+}
+.table__forms {
+  padding-bottom: 30px;
+  & a {
+    font-size: 12px;
+    color: #106dee;
+    text-decoration: none;
+  }
+}
+
+.buttonEntry {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    
+}
+
+.buttonEntry_link {
+    font-size: 20px;
+    padding: 15px 65px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    background: #0B63F6;
+    text-decoration: none;
+    &:hover {
+        
+        background-color: #fff;
+        border: 1px solid #106dee;
+        color: #106dee;
+        box-shadow: 4px 4px 4px 0px #106cee36;
+    }
+}
+
+

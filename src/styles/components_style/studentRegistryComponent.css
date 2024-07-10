@@ -1,0 +1,16 @@
+.table__forms_flex {
+    
+    gap: 50px;
+}
+.buttonEntry_text{
+    padding-top: 20px;
+    font-size: 14px;
+    & a{
+        color: #106dee;
+        &:hover {
+            color: black;
+            transition-duration: .4s;
+        }
+    }
+}
+

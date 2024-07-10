@@ -5,19 +5,46 @@
 
 .content {
   min-height: calc(100vh - 120px);
-  
+  & h2 {
+    font-family: "Jura";
+    font-size: 40px;
+    padding-top: 40px;
+  }
 }
 
+.content_center {
+  padding-left: calc(50% - 585px);
+  padding-right: calc(50% - 585px);
+}
 .content__nav {
   display: flex;
-  
+  justify-content: start;
   gap: 20px;
   font-family: "Jura";
+  padding-top: 30px;
 }
 .content__nav_link {
   color: #106dee;
   &:hover {
     color: black;
     transition-duration: 0.4s;
+  }
+}
+.content__panel {
+  display: flex;
+  gap: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  & p, & a {
+    font-family: "Jura";
+    font-weight: bold;
+    font-size: 20px;
+  }
+  & a {
+color: #106dee;
+&:hover {
+  color: black;
+  transition-duration: 0.4s;
+}
   }
 }

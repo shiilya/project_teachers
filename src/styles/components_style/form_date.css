@@ -1,0 +1,14 @@
+.form_date {
+    padding-top: 20px;
+    & input {
+        color: #106dee;
+        width: 190px;
+        height: 40px;
+        border: 1px solid #106dee;
+        border-radius: 10px;
+        background-color: #f8f8f8;
+        font-family: "Ubuntu";
+        font-weight: bold;
+        padding-left: 10px;
+    }
+}

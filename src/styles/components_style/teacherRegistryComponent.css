@@ -1,0 +1,8 @@
+.table__forms_flex {
+    gap: 50px;
+}
+
+.table__forms_name_date, .table__forms_name_city  {
+    padding-top: 30px;
+}
+
