@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <div className="header">
 
-<div className="footer__columns_left">
+<Link to="/" className="footer__columns_left">
           <img className="footer__columns_left_img" src="./img/logo.png" />
           <p className="footer__columns_left_name"><span>E</span>ng<span>L</span>earn</p>
-        </div>
+        </Link>
 
 
       <div className="header_panel">

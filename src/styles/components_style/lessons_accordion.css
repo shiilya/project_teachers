@@ -1,0 +1,37 @@
+.accordion {
+    &:last-child {
+        margin-bottom: 60px;
+    }
+}
+.accordion_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+ 
+}
+.accordion_background {
+  background-color: #f3f3f3;
+}
+.accordion_name {
+  font-family: "Ubuntu";
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  &:hover {
+    color: #106dee;
+    transition-duration: 0.4s;
+  }
+  
+}
+.accordion_element {
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 18px;
+  &:hover {
+    color: #106dee;
+    transition-duration: 0.3s;
+  }
+}

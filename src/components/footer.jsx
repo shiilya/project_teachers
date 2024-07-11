@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer__columns">
-        <div className="footer__columns_left">
+        <Link to="/" className="footer__columns_left">
           <img className="footer__columns_left_img" src="./img/logo.png" />
           <p className="footer__columns_left_name"><span>E</span>ng<span>L</span>earn</p>
-        </div>
+        </Link>
         <div className="footer__columns_center">
           <Link to="/ege">Подобрать репетитора</Link>
           <Link to="/personal-account">Вход для специалиста</Link>

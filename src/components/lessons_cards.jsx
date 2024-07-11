@@ -7,28 +7,7 @@ function Lessons_cards() {
     <div className="cards">
       <h2>Выберите предмет</h2>
       <div className="cards__grid">
-        <Link className="cards__grid_link" to="/ege">
-          <div className="cards__grid_element">
-            <img
-              className="cards__grid_element_img"
-              src="./img/icon_algebra.png"
-            />
-            <p className="cards__grid_element_name">
-              Подготовка<br /> к ЕГЭ
-            </p>
-          </div>
-        </Link>
-        <Link className="cards__grid_link" to="/ege">
-          <div className="cards__grid_element">
-            <img
-              className="cards__grid_element_img"
-              src="./img/icon_geography.png"
-            />
-            <p className="cards__grid_element_name">
-              Школьные<br /> предметы
-            </p>
-          </div>
-        </Link>
+
         <Link className="cards__grid_link" to="/ege">
           <div className="cards__grid_element">
             <img
@@ -36,31 +15,45 @@ function Lessons_cards() {
               src="./img/icon_exam.png"
             />
             <p className="cards__grid_element_name">
+              Подготовка<br /> к ЕГЭ
+            </p>
+          </div>
+        </Link>
+
+
+        <Link className="cards__grid_link" to="/oge">
+          <div className="cards__grid_element">
+            <img
+              className="cards__grid_element_img"
+              src="./img/icon_algebra.png"
+            />
+            <p className="cards__grid_element_name">
               Подготовка<br /> к ОГЭ
             </p>
           </div>
         </Link>
-        <Link className="cards__grid_link" to="/ege">
+       
+        
+
+
+        <Link className="cards__grid_link" to="/natural-sciences">
           <div className="cards__grid_element">
             <img
               className="cards__grid_element_img"
-              src="./img/icon_school.png"
+              src="./img/icon_physics.png"
             />
             <p className="cards__grid_element_name">
-              Начальная<br /> школа
+              Естественные<br /> науки
             </p>
           </div>
         </Link>
-        <Link className="cards__grid_link" to="/ege">
-          <div className="cards__grid_element">
-            <img
-              className="cards__grid_element_img"
-              src="./img/icon_music.png"
-            />
-            <p className="cards__grid_element_name">Музыка</p>
-          </div>
-        </Link>
-        <Link className="cards__grid_link" to="/ege">
+        
+
+
+
+
+
+        <Link className="cards__grid_link" to="/languages">
           <div className="cards__grid_element">
             <img
               className="cards__grid_element_img"
@@ -71,7 +64,8 @@ function Lessons_cards() {
             </p>
           </div>
         </Link>
-        <Link className="cards__grid_link" to="/ege">
+        
+        <Link className="cards__grid_link" to="/programming">
           <div className="cards__grid_element">
             <img
               className="cards__grid_element_img"
@@ -82,7 +76,27 @@ function Lessons_cards() {
             </p>
           </div>
         </Link>
-        <Link className="cards__grid_link" to="/ege">
+        <Link className="cards__grid_link" to="/school">
+          <div className="cards__grid_element">
+            <img
+              className="cards__grid_element_img"
+              src="./img/icon_geography.png"
+            />
+            <p className="cards__grid_element_name">
+              Школьная<br /> программа
+            </p>
+          </div>
+        </Link>
+        <Link className="cards__grid_link" to="/music">
+          <div className="cards__grid_element">
+            <img
+              className="cards__grid_element_img"
+              src="./img/icon_music.png"
+            />
+            <p className="cards__grid_element_name">Музыка</p>
+          </div>
+        </Link>
+        <Link className="cards__grid_link" to="/art">
           <div className="cards__grid_element">
             <img
               className="cards__grid_element_img"
