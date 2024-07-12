@@ -9,7 +9,7 @@ import "../styles/components_style/lessons_accordion.css"
 
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
-))(({ theme }) => ({
+))(() => ({
   border: `none`,
   '&:not(:last-child)': {
     borderBottom: 0,
@@ -39,16 +39,16 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 }));
 
 export default function CustomizedAccordions(props) {
-  const [expanded, setExpanded] = React.useState('panel1');
+  const [expanded, setExpanded] = React.useState(props.cardName);
 
-  const handleChange = (panel) => (event, newExpanded) => {
-    setExpanded(newExpanded ? panel : false);
+  const handleChange = (card) => (event, newExpanded) => {
+    setExpanded(newExpanded ? card : false);
   };
 
   return (
     <div >
-      <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-        <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
+      <Accordion expanded={expanded === 'card1'} onChange={handleChange('card1')}>
+        <AccordionSummary aria-controls="card1d-content" id="card1d-header">
           <Typography>
             <h3 className='accordion_name'>
             Подготовка к ЕГЭ</h3></Typography>
@@ -74,8 +74,8 @@ export default function CustomizedAccordions(props) {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion  expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
-        <AccordionSummary  aria-controls="panel2d-content" id="panel2d-header">
+      <Accordion  expanded={expanded === 'card2'} onChange={handleChange('card2')}>
+        <AccordionSummary  aria-controls="card2d-content" id="card2d-header">
           <Typography><h3 className='accordion_name'>Подготовка к ОГЭ</h3></Typography>
         </AccordionSummary>
         <AccordionDetails className="accordion_background">
@@ -97,8 +97,8 @@ export default function CustomizedAccordions(props) {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion  expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-        <AccordionSummary  aria-controls="panel3d-content" id="panel3d-header">
+      <Accordion  expanded={expanded === 'card3'} onChange={handleChange('card3')}>
+        <AccordionSummary  aria-controls="card3d-content" id="card3d-header">
           <Typography><h3 className='accordion_name'>Естественные науки</h3></Typography>
         </AccordionSummary>
         <AccordionDetails className="accordion_background">
@@ -122,8 +122,8 @@ export default function CustomizedAccordions(props) {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion  expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
-        <AccordionSummary  aria-controls="panel4d-content" id="panel4d-header">
+      <Accordion  expanded={expanded === 'card4'} onChange={handleChange('card4')}>
+        <AccordionSummary  aria-controls="card4d-content" id="card4d-header">
           <Typography><h3 className='accordion_name'>Гуманитарные науки</h3></Typography>
         </AccordionSummary>
         <AccordionDetails className="accordion_background">
@@ -147,8 +147,8 @@ export default function CustomizedAccordions(props) {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion  expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <AccordionSummary  aria-controls="panel5d-content" id="panel5d-header">
+      <Accordion  expanded={expanded === 'card5'} onChange={handleChange('card5')}>
+        <AccordionSummary  aria-controls="card5d-content" id="card5d-header">
           <Typography><h3 className='accordion_name'>Технические науки</h3></Typography>
         </AccordionSummary>
         <AccordionDetails className="accordion_background">
@@ -172,8 +172,8 @@ export default function CustomizedAccordions(props) {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion  expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
-        <AccordionSummary  aria-controls="panel6d-content" id="panel6d-header">
+      <Accordion  expanded={expanded === 'card6'} onChange={handleChange('card6')}>
+        <AccordionSummary  aria-controls="card6d-content" id="card6d-header">
           <Typography><h3 className='accordion_name'>Программирование</h3></Typography>
         </AccordionSummary>
         <AccordionDetails className="accordion_background">
@@ -197,8 +197,8 @@ export default function CustomizedAccordions(props) {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion  expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
-        <AccordionSummary  aria-controls="panel7d-content" id="panel7d-header">
+      <Accordion  expanded={expanded === 'card7'} onChange={handleChange('card7')}>
+        <AccordionSummary  aria-controls="card7d-content" id="card7d-header">
           <Typography><h3 className='accordion_name'>Школьная программа</h3></Typography>
         </AccordionSummary>
         <AccordionDetails className="accordion_background">
@@ -222,8 +222,8 @@ export default function CustomizedAccordions(props) {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion  expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
-        <AccordionSummary  aria-controls="panel8d-content" id="panel8d-header">
+      <Accordion  expanded={expanded === 'card8'} onChange={handleChange('card8')}>
+        <AccordionSummary  aria-controls="card8d-content" id="card8d-header">
           <Typography><h3 className='accordion_name'>Музыка</h3></Typography>
         </AccordionSummary>
         <AccordionDetails className="accordion_background">
@@ -247,8 +247,8 @@ export default function CustomizedAccordions(props) {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion className="accordion" expanded={expanded === 'panel9'} onChange={handleChange('panel9')}>
-        <AccordionSummary  aria-controls="panel9d-content" id="panel9d-header">
+      <Accordion className="accordion" expanded={expanded === 'card9'} onChange={handleChange('card9')}>
+        <AccordionSummary  aria-controls="card9d-content" id="card9d-header">
           <Typography><h3 className='accordion_name'>Искусство</h3></Typography>
         </AccordionSummary>
         <AccordionDetails className="accordion_background">
@@ -272,8 +272,8 @@ export default function CustomizedAccordions(props) {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion className="accordion" expanded={expanded === 'panel10'} onChange={handleChange('panel10')}>
-        <AccordionSummary  aria-controls="panel10d-content" id="panel10d-header">
+      <Accordion className="accordion" expanded={expanded === 'card10'} onChange={handleChange('card10')}>
+        <AccordionSummary  aria-controls="card10d-content" id="card10d-header">
           <Typography><h3 className='accordion_name'>Иностранные языки</h3></Typography>
         </AccordionSummary>
         <AccordionDetails className="accordion_background">

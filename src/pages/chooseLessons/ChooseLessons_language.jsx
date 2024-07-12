@@ -2,6 +2,7 @@ import Footer from "../../components/footer";
 import Header from "../../components/header";
 import { Link } from "react-router-dom";
 import "../../styles/pages_style/chooseLessons_style.css";
+import CustomizedAccordions from "../../components/lessons_accordion";
 
 function ChooseLessonsLanguages() {
     return (
@@ -21,7 +22,7 @@ function ChooseLessonsLanguages() {
   
             <h2 className="page_heading">Услуги репетиторов</h2>
   
-            {/* <CustomizedAccordions /> */}
+            <CustomizedAccordions cardName="card10"/>
           </div>
         </div>
   

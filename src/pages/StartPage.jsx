@@ -9,10 +9,10 @@ import { Intro } from '../components/intro';
 
 // import { Link } from 'react-router-dom';
 
-function MainPage() {
+function StartPage() {
   return (
     <>
-    <div className="MainPage">
+    <div className="StartPage">
      <Header/>
      <Intro/>
     </div>
@@ -25,4 +25,4 @@ function MainPage() {
   );
 }
 
-export default MainPage;
+export default StartPage;

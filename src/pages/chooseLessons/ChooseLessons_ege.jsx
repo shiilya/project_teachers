@@ -22,7 +22,7 @@ function ChooseLessonsEge() {
 
           <h2 className="page_heading">Услуги репетиторов</h2>
 
-          <CustomizedAccordions />
+          <CustomizedAccordions cardName="card1"/>
         </div>
       </div>
 

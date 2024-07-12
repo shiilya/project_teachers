@@ -1,4 +1,18 @@
-.content {
+.MainPageStudent {
+  
+}
+
+.MainPageStudent__content {
     padding-left: calc(50% - 585px);
   padding-right: calc(50% - 585px);
+  min-height: calc(100vh - 120px);
+}
+
+.MainPageStudent__content__flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.MainPageStudent__content__flex_right {
+  
 }

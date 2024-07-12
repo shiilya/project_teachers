@@ -11,8 +11,8 @@ const Footer = () => {
           <p className="footer__columns_left_name"><span>E</span>ng<span>L</span>earn</p>
         </Link>
         <div className="footer__columns_center">
-          <Link to="/ege">Подобрать репетитора</Link>
-          <Link to="/personal-account">Вход для специалиста</Link>
+          <Link to="/teachers">Подобрать репетитора</Link>
+          <Link to="/teacher-registry">Регистрация для специалиста</Link>
           <Link to="/how-it-works">Оказываемые услуги</Link>
           <Link to="/about-us">О проекте</Link>
           <Link to="/about-us">Условия использования</Link>

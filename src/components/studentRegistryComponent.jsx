@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../styles/components_style/studentRegistryComponent.css";
 import Email from "./form_email";
 import Password from "./form_password";
@@ -83,9 +83,9 @@ const StudentRegistryComponent = () => {
           <a href="#">Пользовательским соглашением</a>
         </div>
         <div className="buttonEntry">
-          <a href="#" className="buttonEntry_link">
+          <Link to="/main-page-student" className="buttonEntry_link">
             Зарегистрироваться
-          </a>
+          </Link>
         </div>
       </div>
     </div>
