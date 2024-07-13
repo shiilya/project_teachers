@@ -5,6 +5,7 @@ import Email from "./form_email";
 import Password from "./form_password";
 import Input from "./form_input";
 import Date from "./form_date";
+import Phone from "./form_phone";
 
 const TeacherRegistryComponent = () => {
   return (
@@ -63,7 +64,7 @@ const TeacherRegistryComponent = () => {
             <div className="table__forms_name">
               <p>Мобильный телефон</p>
             </div>
-            <Input />
+            <Phone/>
 
             <div className="table__forms">
               <div className="table__forms_name table__forms_name_city">

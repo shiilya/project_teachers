@@ -8,7 +8,7 @@ const Header = () => {
 
 <Link to="/" className="footer__columns_left">
           <img className="footer__columns_left_img" src="./img/logo.png" />
-          <p className="footer__columns_left_name"><span>E</span>ng<span>L</span>earn</p>
+          <p className="footer__columns_left_name"><span>E</span>ng<span>L</span>ern</p>
         </Link>
 
 

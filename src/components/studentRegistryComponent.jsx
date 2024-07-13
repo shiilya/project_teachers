@@ -4,6 +4,7 @@ import "../styles/components_style/studentRegistryComponent.css";
 import Email from "./form_email";
 import Password from "./form_password";
 import Input from "./form_input";
+import Phone from "./form_phone";
 
 const StudentRegistryComponent = () => {
   return (
@@ -53,7 +54,7 @@ const StudentRegistryComponent = () => {
               <div className="table__forms_name">
                 <p>Мобильный телефон</p>
               </div>
-              <Input />
+              <Phone />
             </div>
           </div>
 

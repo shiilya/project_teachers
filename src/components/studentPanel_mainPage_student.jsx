@@ -5,7 +5,6 @@ function PanelMainPageStudent() {
     return (
       <div className="panelMainPageStudent">
 
-
         <div className="panelMainPageStudent__button">
         <a href="#" className="panelMainPageStudent__button_link">Календарь</a>
         </div>

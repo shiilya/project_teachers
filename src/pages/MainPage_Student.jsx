@@ -3,6 +3,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import "../styles/pages_style/mainPageStudent_style.css"
 import PanelMainPageStudent from "../components/studentPanel_mainPage_student";
+import CalendarMainPageStudent from "../components/studentCalendar_mainPage_student";
 
 function MainPageStudent() {
   return (
@@ -14,7 +15,7 @@ function MainPageStudent() {
 <PanelMainPageStudent/>
           </div>
           <div className="MainPageStudent__content__flex_right">
-          <PanelMainPageStudent/>
+          <CalendarMainPageStudent/>
           </div>
         </div>
       </div>
